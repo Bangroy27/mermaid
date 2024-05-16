@@ -1,0 +1,10 @@
+```mermaid
+graph LR
+    A[Source] --> B[Message]
+    B --> C[Channel]
+    C --> D[Receiver]
+    D --> E[Feedback]
+    C --> F[Media Konvergensi]
+    F --> D
+
+```
